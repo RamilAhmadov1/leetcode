@@ -1,6 +1,6 @@
 # BankDatabase-Design
  
-I designed and managed the Bank Database system using SQL Developer for bank database systems. The project illustrates the construction of a database system within the banking domain, highlighting its complex design due to extensive data. My goals include creating a fundamental database scheme, highlighting the general appearance and data relationships in the bank database, and ensuring overall project smoothness. My optimistic aim is to gather more data, establish intricate connections between tables like real banks, and maintain project efficiency. 
+I designed and managed the Bank Database system using SQL Developer for bank database systems. The project illustrates the construction of a database system within the banking domain, highlighting its complex design due to extensive data. My goals include creating a fundamental database scheme, highlighting the general appearance and data relationships in the bank database, and ensuring overall project smoothness. 
 
 
 The project centers around the Bank database system and design, comprising 9 tables: Accounts, Bank, Branches, Customers_Accounts, Customers, Employees, Loan, Loan_Customer, and Transaction. Notably, Customers_Accounts and Loan_Customer serve as intersection tables.  
