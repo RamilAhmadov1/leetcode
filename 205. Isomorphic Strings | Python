@@ -1,0 +1,9 @@
+class Solution:
+    def isIsomorphic(self, s: str, t: str) -> bool:
+        hashmapS, hashmapT = {}, {}
+        for i, j in zip(s, t):
+            if(i in hashmapS and hashmapS[i] != j) or(j in hashmapT and hashmapT[j] != i):
+                return False
+            hashmapS[i] = j
+            hashmapT[j] = i
+        return True
