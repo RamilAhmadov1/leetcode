@@ -1,0 +1,12 @@
+class Solution:
+    def wordPattern(self, pattern: str, s: str) -> bool:
+        hashmapS, hashmapP = {}, {}
+        a = s.split()
+        if len(a) != len(pattern):
+            return False
+        for i,j in zip(a, pattern):
+            if(i in hashmapS and hashmapS[i] != j) or (j in hashmapP and hashmapP[j] != i):
+                return False
+            hashmapS[i] = j
+            hashmapP[j] = i
+        return True
